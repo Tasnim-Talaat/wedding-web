@@ -23,7 +23,7 @@ export default function Rsvp() {
                 await axiosistance.post(`/create/`,{fname:fname,lname:lname,email:email,is_going:is_going},config)
                 
                 setIsLoading(false)
-                navigate('/home')
+                navigate('/')
         }
         catch(error){
           console.log(error.response.data)
