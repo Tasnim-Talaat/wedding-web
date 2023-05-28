@@ -15,7 +15,7 @@ export default function Register() {
 
         async function sendRegisterToApi(){
         try{
-                let {data}=await axiosistance.post(`/register/`,{username:username,email:email,password:password})
+                let {data}=await axiosistance.post(`/register/`,{username:email,email:username,password:password})
                 
             //     console.log(data)
                 setIsLoading(false)
