@@ -1,4 +1,18 @@
 /* -------------home---------- */
+::-webkit-scrollbar {
+  width: .8rem;
+}
+
+::-webkit-scrollbar-track {
+  margin: .1rem 0;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7B3D12;
+  border-radius: .2rem;
+
+}
 /* -------------header------------ */
 .banner{
   background-color: rgb(255, 235, 251) ;
