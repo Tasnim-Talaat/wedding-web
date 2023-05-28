@@ -1,0 +1,223 @@
+/* -------------home---------- */
+/* -------------header------------ */
+.banner{
+  background-color: rgb(255, 235, 251) ;
+  height: 90vh;
+}
+/* -------date-------- */
+.date{
+  height: 70vh;
+}
+.when {
+  z-index: 999999999;
+}
+.where{
+  z-index: 99999999;
+}
+.image-banner{
+       
+  mask-image: url(./image/mask.svg);
+  -webkit-mask-image: url(./image/mask.svg);
+-webkit-mask-size: 100%;
+mask-size: 100%;
+-webkit-mask-repeat: no-repeat;
+mask-repeat: no-repeat;
+}
+/* .caption-image{
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  transform: translate(-27%,18%);
+} */
+.caption-image{
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  transform: translate(-25%,-140%);
+}
+.image .caption-image h1{
+  font-size: 80px;
+}
+
+/* .image-banner {
+  top: 2%;
+  transform: translate(0,5%);
+} */
+.image-banner {
+  top: 10%;
+  transform: translate(0,-25%);
+}
+/* ------------------middle--------- */
+.middle{
+  background-color: #7B3D12;
+  color: white; 
+  height: 100vh;      
+}
+.images{
+  bottom:5%;
+  left: 40%;
+  transform: translate(-25%,100%);
+}
+
+/* --------------thisisus--------- */
+.image-thisisus{
+  bottom: -70%;
+  transform: translate(-5%,-10%);
+}
+/* ----------playlist--------- */
+.playlist{
+  background-color:rgb(255, 235, 251) !important;
+  height: 80vh;
+  }
+  .image-playlist{
+    top:-20%;
+    left:5%;
+    transform: translate(0%,-20%);
+  }
+ 
+/* ---------rsvp-section--------- */
+.rsvp-section{
+  background-color:#7B3D12!important; 
+  height: 50vh; 
+}
+.btn-rsvp-section:hover{
+  background-color: #683715;
+  
+}
+
+.navbar{
+  background-color: rgb(255, 235, 251) !important;
+}
+*{
+  color: #7B3D12!important;
+/* font-size: 1.1rem !important; */
+}
+
+.rsvp{
+  background-color:#7B3D12!important; 
+  color: white !important;
+  height: 40px;
+  width: 119px;
+  border-radius: 23px !important;
+
+}
+
+/* ____________________login_____________ */
+.rsvp-invite{
+  background-color: rgb(255, 235, 251) !important;
+  height:80vh;
+}
+.btn-rscvp{
+  background-color:#7B3D12!important; 
+  color: white !important;
+  
+}
+.btn-rscvp:hover{
+  background-color:#683715!important; 
+  
+}
+
+/* ------------rsvp----------- */
+.card-wedding{
+  max-width: 18rem;
+  border: 1px solid #7B3D12!important;
+}
+.line{
+  border-bottom:1px solid #d1af97!important;
+  max-width: 14rem;
+
+}
+
+/* ------------icon-top---------- */
+.icon-up {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icon-up i {
+  color: white;
+ 
+}
+/* -------------rsvpDate--------- */
+.rsvpdate{
+  background-color:rgb(255, 235, 251) !important;
+  height: 100vh;    
+}
+
+.btn-seeAll {
+  border: solid 1px #7B3D12!important;
+  background-color: transparent;
+  color:#7B3D12!important; 
+}
+
+.mapouter{
+  position:relative;
+  text-align:right;
+  width:600px;
+  height:400px;
+}
+.gmap_canvas {
+  /* overflow:hidden; */
+  /* background:none!important; */
+  /* width:800px; */
+  height:400px;}
+
+.gmap_iframe {
+  width:100%!important;
+  height:300px!important;}
+
+.btn-scvp,.btn-rsvpdate{
+  background-color:#7B3D12!important; 
+  color: white !important;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
