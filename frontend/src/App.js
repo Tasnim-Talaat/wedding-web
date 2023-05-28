@@ -9,6 +9,8 @@ import Rsvp from './component/Rsvp/Rsvp';
 import RsvpDate from './component/RsvpDate/RsvpDate';
 import Invites from './component/Invites/Invites';
 import Users from './component/Users/Users';
+import NotFound from './component/NotFound/NotFound';
+
 
 function App() {
   let Routing = createBrowserRouter([
@@ -20,6 +22,8 @@ function App() {
       {path:'users', element:<Users />},
       {path:'rsvp', element:<Rsvp />},
       {path:'rsvpdate', element:<RsvpDate />},
+      {path:'*', element:<NotFound />},
+
 
  
       
